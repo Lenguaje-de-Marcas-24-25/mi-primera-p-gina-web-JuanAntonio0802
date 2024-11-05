@@ -1,0 +1,108 @@
+/* Reset básico para evitar problemas de margen/padding */
+body, table {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse; /* Eliminar el espacio entre las celdas */
+}
+
+/* Estilo del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Tipografía general */
+    background-color: #f4f4f4; /* Color de fondo */
+    color: #333; /* Color del texto */
+    padding: 20px; /* Espaciado alrededor del contenido */
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%; /* Ancho completo */
+    background-color: #fff; /* Fondo blanco para la tabla */
+    border: 1px solid #ccc; /* Borde gris claro */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para los encabezados */
+th {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Texto blanco */
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+/* Estilo para las celdas de datos */
+td {
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #ddd; /* Borde inferior gris claro */
+}
+
+/* Estilos para las clases específicas */
+.badat {
+    background-color: #e0f7fa; /* Color de fondo azul claro */
+}
+
+.lmsgi {
+    background-color: #ffe0b2; /* Color de fondo naranja claro */
+}
+
+.daspgs {
+    background-color: #c8e6c9; /* Color de fondo verde claro */
+}
+
+.sost {
+    background-color: #ffe082; /* Color de fondo amarillo claro */
+}
+
+.progr {
+    background-color: #d1c4e9; /* Color de fondo morado claro */
+}
+
+.endes {
+    background-color: #f8bbd0; /* Color de fondo rosa claro */
+}
+
+.ipe1 {
+    background-color: #b3e5fc; /* Color de fondo azul claro */
+}
+
+.siinf {
+    background-color: #fff59d; /* Color de fondo amarillo pálido */
+}
+
+.recreo {
+    background-color: #a5d6a7; /* Color de fondo verde pálido */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para la celda de la primera columna */
+td:first-child {
+    font-weight: bold; /* Negrita para las horas */
+}
+
+/* Estilo para la tabla en dispositivos móviles */
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block; /* Hacer la tabla responsive */
+    }
+
+    th {
+        display: none; /* Ocultar encabezados en dispositivos pequeños */
+    }
+
+    td {
+        text-align: right; /* Alinear texto a la derecha */
+        position: relative; /* Posicionamiento relativo */
+        padding-left: 50%; /* Espaciado */
+    }
+
+    td::before {
+        position: absolute; /* Posicionamiento absoluto */
+        left: 10px; /* Espaciado desde la izquierda */
+        width: 45%; /* Ancho del pseudo-elemento */
+        padding-right: 10px; /* Espaciado a la derecha */
+        white-space: nowrap; /* No hacer wrap en el texto */
+        content: attr(data-label); /* Usar el atributo data-label */
+        font-weight: bold; /* Negrita */
+        text-align: left; /* Alinear a la izquierda */
+    }
+}
