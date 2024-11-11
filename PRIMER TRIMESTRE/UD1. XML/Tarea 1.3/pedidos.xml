@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido>
+        <numero>1001</numero>
+        <cliente>Juan Pérez</cliente>
+        <fecha>2024-10-08</fecha>
+        <productos>
+            <producto>
+                <nombre>Ordenador portátil</nombre>
+                <cantidad>2</cantidad>
+                <precio_unitario>900.00</precio_unitario>
+            </producto>
+            <producto>
+                <nombre>Ratón inalámbrico</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>25.00</precio_unitario>
+            </producto>
+        </productos>
+    </pedido>
+  </pedidos>

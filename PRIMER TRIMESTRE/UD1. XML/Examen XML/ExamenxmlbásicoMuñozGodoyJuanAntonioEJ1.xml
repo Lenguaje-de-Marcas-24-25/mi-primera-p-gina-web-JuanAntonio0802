@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <contacto>
+        <nombre>Lucas</nombre>
+        <apellidos>Pérez García</apellidos>
+        <direccion>Calle Florencia 12, París, Francia</direccion>
+        <telefonos>
+            <telefono tipo="casa">123456789</telefono>
+            <telefono tipo="movil">987654321</telefono>
+            <telefono tipo="trabajo">452181388</telefono>
+        </telefonos>
+    </contacto>
+    <contacto>
+        <nombre>Mar</nombre>
+        <apellidos>Calvo Caballero</apellidos>
+        <direccion>Avenida del Amor 9, Barcelona, España</direccion>
+        <telefonos>
+            <telefono tipo="movil">702145255</telefono>
+            <telefono tipo="trabajo">623584745</telefono>
+        </telefonos>
+    </contacto>
+</agenda>

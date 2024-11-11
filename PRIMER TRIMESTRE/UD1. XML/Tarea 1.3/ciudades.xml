@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudades>
+    <ciudad>
+        <nombre>Madrid</nombre>
+        <pais continente="Europa">España</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>Buenos Aires</nombre>
+        <pais continente="América del Sur">Argentina</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>Sídney</nombre>
+        <pais continente="Oceanía">Australia</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>Tokio</nombre>
+        <pais continente="Asia">Japón</pais>
+    </ciudad>
+</ciudades>

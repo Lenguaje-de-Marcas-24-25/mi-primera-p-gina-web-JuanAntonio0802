@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hechos>
+    <hecho descripcion="Descubrimiento de América">
+        <dia>12</dia>
+        <mes>10</mes>
+        <anio>1492</anio>
+    </hecho>
+    <hecho descripcion="Primera Guerra Mundial">
+        <dia>28</dia>
+        <mes>7</mes>
+        <anio>1914</anio>
+    </hecho>
+    <hecho descripcion="Hombre llega a la luna">
+        <dia>20</dia>
+        <mes>7</mes>
+        <anio>1969</anio>
+    </hecho>
+    <hecho descripcion="Caída del muro de Berlín">
+        <dia>9</dia>
+        <mes>11</mes>
+        <anio>1989</anio>
+    </hecho>
+</hechos>
