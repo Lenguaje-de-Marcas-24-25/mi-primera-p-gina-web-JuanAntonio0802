@@ -5,5 +5,8 @@
 ### [Tarea 2](Tarea%202/index.html)
 ### [Tarea 3](Tarea%203/listas.html)
 ### [Tarea 4](Tarea%204/README.md)
+### [Tarea 5](Tarea%205/README.md)
 ### [Tarea 6](Tarea%206/formulario1.html)
 ### [Tarea 7](Tarea%207/enlaces.html)
+### [Tarea 8](Tarea%208/parte1.html)
+### [Tarea 9](Tarea%209/parte2.html)
